@@ -1,0 +1,61 @@
+.login-button{
+    padding: 10px;
+    border-radius: 50px;
+    width: 220px;
+    height: 55px;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.login-button:hover {
+    box-shadow: rgba(118, 120, 237, 0.5) 2px 2px 10px;
+}
+.logout-button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+
+    box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 10px;
+    background: #fff;
+    color: #7678ED;
+
+    border: none;
+    cursor: pointer;
+}
+.logout-button:hover{
+    color: #fff;
+    background: #7678ED;
+}
+.send-button{
+    width: 100px;
+    margin-left: 20px;
+    border-radius: 5px;
+
+    background:#7678ED;
+    color:#fff;
+
+    border: none;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.send-button:disabled{
+    background:#c8c9ff;
+    cursor:default;
+}
+.send-button:hover:enabled{
+    color:#7678ED;
+    background:#fff;
+}

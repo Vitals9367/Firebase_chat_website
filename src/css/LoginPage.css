@@ -1,0 +1,44 @@
+.login-page{
+    width: 100%;
+    height: 100%;
+    background-color: #7678ED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-panel{
+    background-color: #fff;
+    padding: 20px;
+    width: 386px;
+    height: 357px;
+    box-shadow: rgba(0, 0, 0, 0.25) 2px 2px 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 15px;
+}
+.login-logo{
+    color: #7678ED;
+    font-weight: 'bold';
+    font-size: 2.2rem;
+}
+.login-panel p {
+    font-weight: 'regular';
+    color: #979797;
+}
+.login-google-icon{
+    object-fit: contain;
+    width: 28px;
+}
+.login-button-content {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.login-button-content p {
+    font-size: 0.9rem;
+    color: #979797;
+}
