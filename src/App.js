@@ -9,12 +9,7 @@ import 'firebase/auth';
 import 'firebase/firestore';
 
 var firebaseConfig = {
-  apiKey: "AIzaSyAdxGfAAB6bsdv-YSk1RS08vx1dt0Q9zB0",
-  authDomain: "chatapp-7c5ea.firebaseapp.com",
-  projectId: "chatapp-7c5ea",
-  storageBucket: "chatapp-7c5ea.appspot.com",
-  messagingSenderId: "324822723792",
-  appId: "1:324822723792:web:503ca95a687266bc5582d5"
+/* Your config */
 };
 
 firebase.initializeApp(firebaseConfig)
